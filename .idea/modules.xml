@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../topic model/.idea/Topic Modelling.iml" filepath="$PROJECT_DIR$/../topic model/.idea/Topic Modelling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TopicM.iml" filepath="$PROJECT_DIR$/.idea/TopicM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../twitter-scrape-master/.idea/twitter-scrape-master.iml" filepath="$PROJECT_DIR$/../twitter-scrape-master/.idea/twitter-scrape-master.iml" />
+    </modules>
+  </component>
+</project>

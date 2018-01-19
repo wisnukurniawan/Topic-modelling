@@ -1,0 +1,442 @@
+2018-01-17 23:27:07,993 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2018-01-17 23:27:07,997 : INFO : built Dictionary(636 unique tokens: [u'lesat', u'casemiro', u'goooolllll', u'stoper', u'toure']...) from 148 documents (total 1631 corpus positions)
+2018-01-17 23:27:07,998 : INFO : saving Dictionary object under dictionary.dict, separately None
+2018-01-17 23:27:07,999 : INFO : saved dictionary.dict
+2018-01-17 23:27:08,002 : INFO : storing corpus in Matrix Market format to corpus.mm
+2018-01-17 23:27:08,002 : INFO : saving sparse matrix to corpus.mm
+2018-01-17 23:27:08,003 : INFO : PROGRESS: saving document #0
+2018-01-17 23:27:08,013 : INFO : saved 148x636 matrix, density=1.664% (1566/94128)
+2018-01-17 23:27:08,014 : INFO : saving MmCorpus index to corpus.mm.index
+2018-01-17 23:27:08,014 : INFO : using symmetric alpha at 0.1
+2018-01-17 23:27:08,014 : INFO : using symmetric eta at 0.1
+2018-01-17 23:27:08,015 : INFO : using serial LDA version on this node
+2018-01-17 23:27:08,052 : INFO : running online (multi-pass) LDA training, 10 topics, 50 passes over the supplied corpus of 148 documents, updating model once every 148 documents, evaluating perplexity every 148 documents, iterating 50x with a convergence threshold of 0.001000
+2018-01-17 23:27:08,378 : INFO : -11.671 per-word bound, 3261.4 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:08,378 : INFO : PROGRESS: pass 0, at document #148/148
+2018-01-17 23:27:08,602 : INFO : topic #2 (0.100): 0.034*"livebolanet" + 0.031*"mil" + 0.026*"atalanta" + 0.024*"xi" + 0.012*"vs" + 0.012*"prediksi" + 0.012*"inter" + 0.010*"cristante" + 0.008*"tembak" + 0.008*"gawang"
+2018-01-17 23:27:08,602 : INFO : topic #4 (0.100): 0.050*"livebolanet" + 0.035*"madrid" + 0.034*"segarnyasolero" + 0.034*"barcelona" + 0.030*"real" + 0.020*"babak" + 0.016*"manis" + 0.014*"segar" + 0.014*"tim" + 0.013*"laga"
+2018-01-17 23:27:08,602 : INFO : topic #0 (0.100): 0.043*"livebolanet" + 0.028*"laga" + 0.027*"akhir" + 0.027*"madrid" + 0.025*"subs" + 0.025*"liga" + 0.024*"la" + 0.017*"segarnyasolero" + 0.017*"barcelona" + 0.013*"minimal"
+2018-01-17 23:27:08,602 : INFO : topic #5 (0.100): 0.035*"livebolanet" + 0.030*"barcelona" + 0.027*"madrid" + 0.024*"real" + 0.022*"segarnyasolero" + 0.020*"ronaldo" + 0.015*"tembak" + 0.014*"hasil" + 0.013*"manis" + 0.010*"stegen"
+2018-01-17 23:27:08,603 : INFO : topic #6 (0.100): 0.022*"livebolanet" + 0.021*"leicester" + 0.014*"man" + 0.014*"united" + 0.014*"juventus" + 0.014*"kartu" + 0.014*"klopp" + 0.014*"lawan" + 0.014*"liverpool" + 0.014*"guardiola"
+2018-01-17 23:27:08,603 : INFO : topic diff=7.138507, rho=1.000000
+2018-01-17 23:27:08,737 : INFO : -6.730 per-word bound, 106.1 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:08,737 : INFO : PROGRESS: pass 1, at document #148/148
+2018-01-17 23:27:08,869 : INFO : topic #8 (0.100): 0.044*"livebolanet" + 0.037*"man" + 0.034*"city" + 0.027*"bournemouth" + 0.026*"leicester" + 0.024*"united" + 0.019*"gawang" + 0.017*"umpan" + 0.016*"vs" + 0.016*"shots"
+2018-01-17 23:27:08,869 : INFO : topic #9 (0.100): 0.023*"livebolanet" + 0.018*"madrid" + 0.018*"segarnyasolero" + 0.018*"main" + 0.018*"real" + 0.018*"barcelona" + 0.009*"mu" + 0.009*"arsenal" + 0.009*"masuk" + 0.009*"ganti"
+2018-01-17 23:27:08,869 : INFO : topic #2 (0.100): 0.032*"livebolanet" + 0.031*"mil" + 0.027*"xi" + 0.027*"atalanta" + 0.013*"cristante" + 0.013*"inter" + 0.011*"vs" + 0.010*"prediksi" + 0.009*"gawang" + 0.009*"a"
+2018-01-17 23:27:08,870 : INFO : topic #0 (0.100): 0.039*"livebolanet" + 0.030*"madrid" + 0.030*"laga" + 0.030*"akhir" + 0.029*"la" + 0.028*"liga" + 0.027*"subs" + 0.019*"segarnyasolero" + 0.018*"barcelona" + 0.015*"gol"
+2018-01-17 23:27:08,870 : INFO : topic #1 (0.100): 0.041*"livebolanet" + 0.034*"tackles" + 0.034*"possessions" + 0.034*"shots" + 0.018*"ft" + 0.018*"juventus" + 0.018*"roma" + 0.014*"ht" + 0.012*"benatia" + 0.012*"subs"
+2018-01-17 23:27:08,870 : INFO : topic diff=0.153306, rho=0.577350
+2018-01-17 23:27:08,987 : INFO : -6.568 per-word bound, 94.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:08,987 : INFO : PROGRESS: pass 2, at document #148/148
+2018-01-17 23:27:09,108 : INFO : topic #8 (0.100): 0.044*"livebolanet" + 0.041*"man" + 0.040*"city" + 0.032*"bournemouth" + 0.030*"leicester" + 0.027*"united" + 0.020*"gawang" + 0.018*"umpan" + 0.018*"vs" + 0.015*"manchester"
+2018-01-17 23:27:09,109 : INFO : topic #1 (0.100): 0.044*"livebolanet" + 0.039*"tackles" + 0.039*"possessions" + 0.039*"shots" + 0.020*"ft" + 0.018*"ht" + 0.018*"juventus" + 0.018*"roma" + 0.012*"benatia" + 0.012*"subs"
+2018-01-17 23:27:09,110 : INFO : topic #5 (0.100): 0.036*"barcelona" + 0.035*"livebolanet" + 0.033*"madrid" + 0.030*"real" + 0.029*"segarnyasolero" + 0.021*"ronaldo" + 0.021*"tembak" + 0.020*"manis" + 0.015*"hasil" + 0.013*"stegen"
+2018-01-17 23:27:09,110 : INFO : topic #7 (0.100): 0.028*"livebolanet" + 0.026*"wib" + 0.026*"streaming" + 0.025*"vs" + 0.020*"minggu" + 0.018*"mil" + 0.016*"preview" + 0.012*"city" + 0.012*"atalanta" + 0.012*"roma"
+2018-01-17 23:27:09,111 : INFO : topic #3 (0.100): 0.020*"review" + 0.020*"city" + 0.010*"mu" + 0.010*"chelsea" + 0.010*"imbang" + 0.010*"inggris" + 0.010*"everton" + 0.010*"tinggal" + 0.010*"poin" + 0.010*"menang"
+2018-01-17 23:27:09,112 : INFO : topic diff=0.125482, rho=0.500000
+2018-01-17 23:27:09,250 : INFO : -6.486 per-word bound, 89.6 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:09,250 : INFO : PROGRESS: pass 3, at document #148/148
+2018-01-17 23:27:09,346 : INFO : topic #4 (0.100): 0.060*"livebolanet" + 0.037*"babak" + 0.032*"barcelona" + 0.032*"madrid" + 0.032*"segarnyasolero" + 0.029*"real" + 0.029*"priiittt" + 0.026*"off" + 0.026*"kick" + 0.017*"wasit"
+2018-01-17 23:27:09,346 : INFO : topic #2 (0.100): 0.030*"mil" + 0.030*"livebolanet" + 0.029*"xi" + 0.026*"atalanta" + 0.016*"cristante" + 0.013*"inter" + 0.010*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"sassuolo"
+2018-01-17 23:27:09,346 : INFO : topic #5 (0.100): 0.037*"barcelona" + 0.035*"livebolanet" + 0.034*"madrid" + 0.031*"real" + 0.030*"segarnyasolero" + 0.022*"tembak" + 0.022*"manis" + 0.021*"ronaldo" + 0.014*"hasil" + 0.014*"stegen"
+2018-01-17 23:27:09,347 : INFO : topic #6 (0.100): 0.021*"leicester" + 0.019*"juventus" + 0.016*"liverpool" + 0.016*"kartu" + 0.016*"lawan" + 0.016*"guardiola" + 0.016*"klopp" + 0.013*"livebolanet" + 0.012*"united" + 0.012*"roma"
+2018-01-17 23:27:09,347 : INFO : topic #9 (0.100): 0.020*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"segarnyasolero" + 0.019*"barcelona" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:09,347 : INFO : topic diff=0.097663, rho=0.447214
+2018-01-17 23:27:09,480 : INFO : -6.438 per-word bound, 86.7 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:09,480 : INFO : PROGRESS: pass 4, at document #148/148
+2018-01-17 23:27:09,554 : INFO : topic #4 (0.100): 0.061*"livebolanet" + 0.039*"babak" + 0.032*"barcelona" + 0.032*"madrid" + 0.031*"segarnyasolero" + 0.031*"priiittt" + 0.029*"real" + 0.028*"off" + 0.028*"kick" + 0.018*"wasit"
+2018-01-17 23:27:09,554 : INFO : topic #7 (0.100): 0.028*"wib" + 0.028*"streaming" + 0.027*"vs" + 0.027*"livebolanet" + 0.022*"minggu" + 0.021*"mil" + 0.017*"preview" + 0.014*"atalanta" + 0.012*"city" + 0.012*"roma"
+2018-01-17 23:27:09,554 : INFO : topic #1 (0.100): 0.047*"livebolanet" + 0.044*"tackles" + 0.044*"possessions" + 0.044*"shots" + 0.023*"juventus" + 0.023*"roma" + 0.022*"ht" + 0.022*"ft" + 0.012*"benatia" + 0.012*"subs"
+2018-01-17 23:27:09,554 : INFO : topic #6 (0.100): 0.020*"leicester" + 0.016*"liverpool" + 0.016*"lawan" + 0.016*"kartu" + 0.016*"guardiola" + 0.016*"klopp" + 0.015*"juventus" + 0.012*"livebolanet" + 0.011*"united" + 0.011*"man"
+2018-01-17 23:27:09,555 : INFO : topic #5 (0.100): 0.038*"barcelona" + 0.035*"madrid" + 0.035*"livebolanet" + 0.032*"real" + 0.032*"segarnyasolero" + 0.023*"manis" + 0.023*"tembak" + 0.021*"ronaldo" + 0.014*"hasil" + 0.014*"gawang"
+2018-01-17 23:27:09,555 : INFO : topic diff=0.078582, rho=0.408248
+2018-01-17 23:27:09,672 : INFO : -6.408 per-word bound, 84.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:09,672 : INFO : PROGRESS: pass 5, at document #148/148
+2018-01-17 23:27:09,745 : INFO : topic #5 (0.100): 0.040*"barcelona" + 0.037*"madrid" + 0.035*"livebolanet" + 0.034*"real" + 0.034*"segarnyasolero" + 0.024*"manis" + 0.023*"tembak" + 0.021*"ronaldo" + 0.015*"navas" + 0.014*"gawang"
+2018-01-17 23:27:09,746 : INFO : topic #2 (0.100): 0.030*"xi" + 0.029*"livebolanet" + 0.029*"mil" + 0.025*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.010*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:09,746 : INFO : topic #1 (0.100): 0.049*"livebolanet" + 0.046*"tackles" + 0.046*"shots" + 0.046*"possessions" + 0.025*"ht" + 0.025*"juventus" + 0.025*"roma" + 0.022*"ft" + 0.012*"benatia" + 0.011*"subs"
+2018-01-17 23:27:09,746 : INFO : topic #3 (0.100): 0.022*"review" + 0.014*"city" + 0.011*"mu" + 0.011*"imbang" + 0.011*"chelsea" + 0.011*"inggris" + 0.011*"tinggal" + 0.011*"everton" + 0.011*"poin" + 0.011*"rumput"
+2018-01-17 23:27:09,746 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"segarnyasolero" + 0.019*"barcelona" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:09,746 : INFO : topic diff=0.062506, rho=0.377964
+2018-01-17 23:27:09,868 : INFO : -6.389 per-word bound, 83.8 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:09,868 : INFO : PROGRESS: pass 6, at document #148/148
+2018-01-17 23:27:09,942 : INFO : topic #5 (0.100): 0.041*"barcelona" + 0.039*"madrid" + 0.035*"real" + 0.035*"livebolanet" + 0.035*"segarnyasolero" + 0.025*"manis" + 0.023*"tembak" + 0.021*"ronaldo" + 0.015*"navas" + 0.014*"gawang"
+2018-01-17 23:27:09,942 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"segarnyasolero" + 0.019*"barcelona" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:09,942 : INFO : topic #3 (0.100): 0.022*"review" + 0.013*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"rumput" + 0.012*"everton" + 0.012*"poin"
+2018-01-17 23:27:09,942 : INFO : topic #4 (0.100): 0.060*"livebolanet" + 0.041*"babak" + 0.033*"priiittt" + 0.030*"off" + 0.030*"kick" + 0.030*"madrid" + 0.029*"barcelona" + 0.029*"segarnyasolero" + 0.027*"real" + 0.019*"wasit"
+2018-01-17 23:27:09,943 : INFO : topic #0 (0.100): 0.035*"madrid" + 0.035*"livebolanet" + 0.035*"la" + 0.034*"liga" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.023*"segarnyasolero" + 0.020*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:09,943 : INFO : topic diff=0.049829, rho=0.353553
+2018-01-17 23:27:10,066 : INFO : -6.375 per-word bound, 83.0 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:10,066 : INFO : PROGRESS: pass 7, at document #148/148
+2018-01-17 23:27:10,138 : INFO : topic #7 (0.100): 0.029*"wib" + 0.029*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.016*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:10,139 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"segarnyasolero" + 0.019*"barcelona" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:10,139 : INFO : topic #6 (0.100): 0.017*"leicester" + 0.017*"liverpool" + 0.017*"lawan" + 0.017*"kartu" + 0.017*"guardiola" + 0.017*"klopp" + 0.011*"juventus" + 0.009*"laga" + 0.009*"mu" + 0.009*"ajar"
+2018-01-17 23:27:10,139 : INFO : topic #8 (0.100): 0.055*"man" + 0.046*"city" + 0.045*"livebolanet" + 0.040*"leicester" + 0.037*"united" + 0.037*"bournemouth" + 0.023*"gawang" + 0.019*"umpan" + 0.018*"vs" + 0.016*"manchester"
+2018-01-17 23:27:10,139 : INFO : topic #0 (0.100): 0.035*"madrid" + 0.035*"la" + 0.035*"livebolanet" + 0.035*"liga" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.020*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:10,139 : INFO : topic diff=0.039495, rho=0.333333
+2018-01-17 23:27:10,256 : INFO : -6.364 per-word bound, 82.4 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:10,256 : INFO : PROGRESS: pass 8, at document #148/148
+2018-01-17 23:27:10,337 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.016*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:10,337 : INFO : topic #0 (0.100): 0.035*"madrid" + 0.035*"la" + 0.035*"livebolanet" + 0.035*"liga" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:10,337 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"segarnyasolero" + 0.019*"barcelona" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:10,338 : INFO : topic #8 (0.100): 0.057*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.041*"leicester" + 0.039*"united" + 0.037*"bournemouth" + 0.023*"gawang" + 0.019*"umpan" + 0.018*"vs" + 0.016*"manchester"
+2018-01-17 23:27:10,338 : INFO : topic #1 (0.100): 0.054*"possessions" + 0.054*"shots" + 0.054*"tackles" + 0.053*"livebolanet" + 0.031*"ht" + 0.026*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.013*"review" + 0.011*"benatia"
+2018-01-17 23:27:10,338 : INFO : topic diff=0.031133, rho=0.316228
+2018-01-17 23:27:10,443 : INFO : -6.355 per-word bound, 81.8 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:10,443 : INFO : PROGRESS: pass 9, at document #148/148
+2018-01-17 23:27:10,518 : INFO : topic #5 (0.100): 0.045*"barcelona" + 0.042*"madrid" + 0.039*"real" + 0.039*"segarnyasolero" + 0.036*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.016*"navas" + 0.015*"umpan"
+2018-01-17 23:27:10,519 : INFO : topic #4 (0.100): 0.060*"livebolanet" + 0.043*"babak" + 0.034*"priiittt" + 0.032*"off" + 0.032*"kick" + 0.027*"madrid" + 0.027*"barcelona" + 0.026*"segarnyasolero" + 0.024*"real" + 0.020*"wasit"
+2018-01-17 23:27:10,519 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:10,519 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"segarnyasolero" + 0.019*"barcelona" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:10,519 : INFO : topic #2 (0.100): 0.030*"xi" + 0.030*"mil" + 0.029*"livebolanet" + 0.023*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:10,519 : INFO : topic diff=0.024923, rho=0.301511
+2018-01-17 23:27:10,624 : INFO : -6.348 per-word bound, 81.5 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:10,624 : INFO : PROGRESS: pass 10, at document #148/148
+2018-01-17 23:27:10,691 : INFO : topic #2 (0.100): 0.030*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.023*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:10,691 : INFO : topic #8 (0.100): 0.059*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.042*"leicester" + 0.040*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.019*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:10,692 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"segarnyasolero" + 0.019*"barcelona" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:10,692 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:10,692 : INFO : topic #3 (0.100): 0.022*"review" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"inggris" + 0.012*"rumput" + 0.012*"tinggal" + 0.012*"poin" + 0.012*"everton"
+2018-01-17 23:27:10,692 : INFO : topic diff=0.019674, rho=0.288675
+2018-01-17 23:27:10,816 : INFO : -6.343 per-word bound, 81.2 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:10,816 : INFO : PROGRESS: pass 11, at document #148/148
+2018-01-17 23:27:10,885 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.023*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:10,885 : INFO : topic #5 (0.100): 0.046*"barcelona" + 0.043*"madrid" + 0.040*"real" + 0.040*"segarnyasolero" + 0.037*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.016*"navas" + 0.015*"umpan"
+2018-01-17 23:27:10,886 : INFO : topic #3 (0.100): 0.022*"review" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"inggris" + 0.012*"rumput" + 0.012*"tinggal" + 0.012*"poin" + 0.012*"everton"
+2018-01-17 23:27:10,886 : INFO : topic #0 (0.100): 0.036*"madrid" + 0.036*"la" + 0.035*"liga" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:10,886 : INFO : topic #4 (0.100): 0.060*"livebolanet" + 0.044*"babak" + 0.035*"priiittt" + 0.032*"kick" + 0.032*"off" + 0.026*"madrid" + 0.026*"barcelona" + 0.025*"segarnyasolero" + 0.023*"real" + 0.020*"wasit"
+2018-01-17 23:27:10,886 : INFO : topic diff=0.015736, rho=0.277350
+2018-01-17 23:27:11,005 : INFO : -6.340 per-word bound, 81.0 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:11,005 : INFO : PROGRESS: pass 12, at document #148/148
+2018-01-17 23:27:11,073 : INFO : topic #4 (0.100): 0.060*"livebolanet" + 0.044*"babak" + 0.035*"priiittt" + 0.032*"kick" + 0.032*"off" + 0.026*"madrid" + 0.025*"barcelona" + 0.025*"segarnyasolero" + 0.023*"real" + 0.021*"wasit"
+2018-01-17 23:27:11,073 : INFO : topic #6 (0.100): 0.017*"liverpool" + 0.017*"lawan" + 0.017*"guardiola" + 0.017*"kartu" + 0.017*"klopp" + 0.014*"leicester" + 0.009*"juventus" + 0.009*"laga" + 0.009*"mu" + 0.009*"ajar"
+2018-01-17 23:27:11,073 : INFO : topic #5 (0.100): 0.046*"barcelona" + 0.043*"madrid" + 0.040*"real" + 0.040*"segarnyasolero" + 0.037*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.016*"navas" + 0.015*"umpan"
+2018-01-17 23:27:11,074 : INFO : topic #0 (0.100): 0.036*"madrid" + 0.036*"la" + 0.035*"liga" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:11,074 : INFO : topic #3 (0.100): 0.022*"review" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"poin" + 0.012*"everton"
+2018-01-17 23:27:11,074 : INFO : topic diff=0.012747, rho=0.267261
+2018-01-17 23:27:11,187 : INFO : -6.337 per-word bound, 80.8 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:11,187 : INFO : PROGRESS: pass 13, at document #148/148
+2018-01-17 23:27:11,256 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:11,256 : INFO : topic #4 (0.100): 0.060*"livebolanet" + 0.044*"babak" + 0.035*"priiittt" + 0.032*"off" + 0.032*"kick" + 0.026*"madrid" + 0.025*"barcelona" + 0.025*"segarnyasolero" + 0.023*"real" + 0.021*"wasit"
+2018-01-17 23:27:11,256 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:11,256 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.014*"leicester" + 0.009*"juventus" + 0.009*"laga" + 0.009*"mu" + 0.009*"ajar"
+2018-01-17 23:27:11,257 : INFO : topic #5 (0.100): 0.046*"barcelona" + 0.044*"madrid" + 0.040*"real" + 0.040*"segarnyasolero" + 0.037*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.016*"navas" + 0.015*"umpan"
+2018-01-17 23:27:11,257 : INFO : topic diff=0.010382, rho=0.258199
+2018-01-17 23:27:11,373 : INFO : -6.334 per-word bound, 80.7 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:11,373 : INFO : PROGRESS: pass 14, at document #148/148
+2018-01-17 23:27:11,449 : INFO : topic #3 (0.100): 0.022*"review" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"poin" + 0.012*"everton"
+2018-01-17 23:27:11,449 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:11,450 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:11,450 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.044*"babak" + 0.036*"priiittt" + 0.033*"off" + 0.033*"kick" + 0.026*"madrid" + 0.025*"barcelona" + 0.024*"segarnyasolero" + 0.023*"real" + 0.021*"wasit"
+2018-01-17 23:27:11,450 : INFO : topic #8 (0.100): 0.062*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.043*"leicester" + 0.041*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.019*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:11,450 : INFO : topic diff=0.009180, rho=0.250000
+2018-01-17 23:27:11,567 : INFO : -6.332 per-word bound, 80.6 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:11,567 : INFO : PROGRESS: pass 15, at document #148/148
+2018-01-17 23:27:11,639 : INFO : topic #8 (0.100): 0.062*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.043*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:11,639 : INFO : topic #3 (0.100): 0.022*"review" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"poin" + 0.012*"everton"
+2018-01-17 23:27:11,639 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:11,639 : INFO : topic #0 (0.100): 0.036*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:11,640 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.044*"madrid" + 0.041*"real" + 0.041*"segarnyasolero" + 0.037*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.016*"navas" + 0.015*"umpan"
+2018-01-17 23:27:11,640 : INFO : topic diff=0.007672, rho=0.242536
+2018-01-17 23:27:11,745 : INFO : -6.330 per-word bound, 80.4 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:11,745 : INFO : PROGRESS: pass 16, at document #148/148
+2018-01-17 23:27:11,816 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:11,817 : INFO : topic #0 (0.100): 0.037*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:11,817 : INFO : topic #8 (0.100): 0.062*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.043*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:11,817 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.013*"leicester" + 0.009*"juventus" + 0.009*"laga" + 0.009*"mu" + 0.009*"ajar"
+2018-01-17 23:27:11,817 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"kick" + 0.033*"off" + 0.025*"madrid" + 0.025*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:11,817 : INFO : topic diff=0.006477, rho=0.235702
+2018-01-17 23:27:11,924 : INFO : -6.328 per-word bound, 80.4 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:11,924 : INFO : PROGRESS: pass 17, at document #148/148
+2018-01-17 23:27:11,999 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.044*"madrid" + 0.041*"real" + 0.041*"segarnyasolero" + 0.037*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.016*"navas" + 0.015*"umpan"
+2018-01-17 23:27:11,999 : INFO : topic #3 (0.100): 0.022*"review" + 0.012*"city" + 0.012*"poin" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"everton"
+2018-01-17 23:27:11,999 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.013*"leicester" + 0.009*"juventus" + 0.009*"laga" + 0.009*"mu" + 0.009*"ajar"
+2018-01-17 23:27:11,999 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:12,000 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:12,000 : INFO : topic diff=0.005505, rho=0.229416
+2018-01-17 23:27:12,119 : INFO : -6.327 per-word bound, 80.3 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:12,119 : INFO : PROGRESS: pass 18, at document #148/148
+2018-01-17 23:27:12,188 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.044*"madrid" + 0.041*"real" + 0.041*"segarnyasolero" + 0.037*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.016*"navas" + 0.015*"umpan"
+2018-01-17 23:27:12,188 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.013*"leicester" + 0.009*"juventus" + 0.009*"laga" + 0.009*"mu" + 0.009*"ajar"
+2018-01-17 23:27:12,188 : INFO : topic #0 (0.100): 0.037*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:12,188 : INFO : topic #3 (0.100): 0.024*"review" + 0.012*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"everton"
+2018-01-17 23:27:12,189 : INFO : topic #1 (0.100): 0.060*"possessions" + 0.060*"shots" + 0.060*"tackles" + 0.056*"livebolanet" + 0.035*"ht" + 0.030*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.015*"review" + 0.011*"atalanta"
+2018-01-17 23:27:12,189 : INFO : topic diff=0.004905, rho=0.223607
+2018-01-17 23:27:12,462 : INFO : -6.326 per-word bound, 80.2 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:12,463 : INFO : PROGRESS: pass 19, at document #148/148
+2018-01-17 23:27:12,535 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.044*"madrid" + 0.041*"real" + 0.041*"segarnyasolero" + 0.037*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.016*"navas" + 0.015*"umpan"
+2018-01-17 23:27:12,535 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:12,535 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"off" + 0.033*"kick" + 0.025*"madrid" + 0.025*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:12,535 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:12,536 : INFO : topic #3 (0.100): 0.025*"review" + 0.014*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"everton"
+2018-01-17 23:27:12,536 : INFO : topic diff=0.004356, rho=0.218218
+2018-01-17 23:27:12,710 : INFO : -6.325 per-word bound, 80.2 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:12,711 : INFO : PROGRESS: pass 20, at document #148/148
+2018-01-17 23:27:12,866 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"off" + 0.033*"kick" + 0.025*"madrid" + 0.025*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:12,867 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.013*"leicester" + 0.009*"juventus" + 0.009*"mu" + 0.009*"laga" + 0.009*"ajar"
+2018-01-17 23:27:12,868 : INFO : topic #8 (0.100): 0.062*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.043*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:12,870 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:12,871 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:12,871 : INFO : topic diff=0.003830, rho=0.213201
+2018-01-17 23:27:13,090 : INFO : -6.324 per-word bound, 80.1 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:13,090 : INFO : PROGRESS: pass 21, at document #148/148
+2018-01-17 23:27:13,172 : INFO : topic #8 (0.100): 0.062*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:13,173 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:13,173 : INFO : topic #3 (0.100): 0.027*"review" + 0.016*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"everton"
+2018-01-17 23:27:13,173 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.013*"leicester" + 0.009*"juventus" + 0.009*"mu" + 0.009*"laga" + 0.009*"ajar"
+2018-01-17 23:27:13,173 : INFO : topic #1 (0.100): 0.060*"possessions" + 0.060*"tackles" + 0.060*"shots" + 0.057*"livebolanet" + 0.036*"ht" + 0.030*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.015*"review" + 0.011*"atalanta"
+2018-01-17 23:27:13,173 : INFO : topic diff=0.003352, rho=0.208514
+2018-01-17 23:27:13,330 : INFO : -6.323 per-word bound, 80.1 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:13,331 : INFO : PROGRESS: pass 22, at document #148/148
+2018-01-17 23:27:13,415 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"off" + 0.033*"kick" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:13,416 : INFO : topic #1 (0.100): 0.061*"shots" + 0.061*"tackles" + 0.061*"possessions" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.015*"review" + 0.011*"atalanta"
+2018-01-17 23:27:13,416 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"juventus" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar"
+2018-01-17 23:27:13,416 : INFO : topic #3 (0.100): 0.028*"review" + 0.017*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"everton"
+2018-01-17 23:27:13,416 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:13,417 : INFO : topic diff=0.002926, rho=0.204124
+2018-01-17 23:27:13,532 : INFO : -6.323 per-word bound, 80.0 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:13,532 : INFO : PROGRESS: pass 23, at document #148/148
+2018-01-17 23:27:13,599 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:13,599 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"juventus" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar"
+2018-01-17 23:27:13,599 : INFO : topic #1 (0.100): 0.061*"tackles" + 0.061*"shots" + 0.061*"possessions" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:13,599 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:13,599 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:13,599 : INFO : topic diff=0.002552, rho=0.200000
+2018-01-17 23:27:13,719 : INFO : -6.322 per-word bound, 80.0 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:13,719 : INFO : PROGRESS: pass 24, at document #148/148
+2018-01-17 23:27:13,784 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.045*"madrid" + 0.041*"real" + 0.041*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:13,784 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"juventus" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar"
+2018-01-17 23:27:13,784 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:13,784 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:13,784 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:13,784 : INFO : topic diff=0.002225, rho=0.196116
+2018-01-17 23:27:13,901 : INFO : -6.322 per-word bound, 80.0 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:13,902 : INFO : PROGRESS: pass 25, at document #148/148
+2018-01-17 23:27:13,972 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.045*"madrid" + 0.041*"real" + 0.041*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:13,973 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:13,973 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:13,973 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:13,973 : INFO : topic #3 (0.100): 0.030*"review" + 0.019*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"everton"
+2018-01-17 23:27:13,973 : INFO : topic diff=0.001942, rho=0.192450
+2018-01-17 23:27:14,074 : INFO : -6.321 per-word bound, 80.0 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:14,074 : INFO : PROGRESS: pass 26, at document #148/148
+2018-01-17 23:27:14,141 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:14,141 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:14,142 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.041*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:14,142 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:14,142 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:14,142 : INFO : topic diff=0.001695, rho=0.188982
+2018-01-17 23:27:14,251 : INFO : -6.321 per-word bound, 80.0 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:14,251 : INFO : PROGRESS: pass 27, at document #148/148
+2018-01-17 23:27:14,346 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.041*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:14,347 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:14,347 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:14,347 : INFO : topic #3 (0.100): 0.031*"review" + 0.020*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"everton"
+2018-01-17 23:27:14,348 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:14,348 : INFO : topic diff=0.001480, rho=0.185695
+2018-01-17 23:27:14,457 : INFO : -6.321 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:14,458 : INFO : PROGRESS: pass 28, at document #148/148
+2018-01-17 23:27:14,522 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"city" + 0.012*"juventus"
+2018-01-17 23:27:14,522 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.041*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:14,523 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"off" + 0.033*"kick" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:14,523 : INFO : topic #1 (0.100): 0.061*"possessions" + 0.061*"tackles" + 0.061*"shots" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:14,523 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:14,523 : INFO : topic diff=0.001293, rho=0.182574
+2018-01-17 23:27:14,636 : INFO : -6.321 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:14,636 : INFO : PROGRESS: pass 29, at document #148/148
+2018-01-17 23:27:14,700 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"juventus" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar"
+2018-01-17 23:27:14,700 : INFO : topic #3 (0.100): 0.031*"review" + 0.021*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"everton"
+2018-01-17 23:27:14,700 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:14,700 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:14,701 : INFO : topic #5 (0.100): 0.047*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:14,701 : INFO : topic diff=0.001129, rho=0.179605
+2018-01-17 23:27:14,825 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:14,826 : INFO : PROGRESS: pass 30, at document #148/148
+2018-01-17 23:27:14,893 : INFO : topic #9 (0.100): 0.019*"livebolanet" + 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"ganti"
+2018-01-17 23:27:14,893 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"juventus" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar"
+2018-01-17 23:27:14,894 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"kick" + 0.033*"off" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:14,894 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:14,894 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:14,895 : INFO : topic diff=0.000986, rho=0.176777
+2018-01-17 23:27:15,009 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:15,009 : INFO : PROGRESS: pass 31, at document #148/148
+2018-01-17 23:27:15,076 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:15,076 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:15,076 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"juventus" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar"
+2018-01-17 23:27:15,076 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.033*"laga" + 0.033*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:15,076 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"livebolanet" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"gaji"
+2018-01-17 23:27:15,077 : INFO : topic diff=0.000859, rho=0.174078
+2018-01-17 23:27:15,181 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:15,181 : INFO : PROGRESS: pass 32, at document #148/148
+2018-01-17 23:27:15,249 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:15,249 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:15,249 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:15,249 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"juventus" + 0.012*"roma"
+2018-01-17 23:27:15,249 : INFO : topic #3 (0.100): 0.032*"review" + 0.021*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:15,250 : INFO : topic diff=0.000748, rho=0.171499
+2018-01-17 23:27:15,368 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:15,368 : INFO : PROGRESS: pass 33, at document #148/148
+2018-01-17 23:27:15,433 : INFO : topic #3 (0.100): 0.032*"review" + 0.021*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:15,433 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"livebolanet" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"imbang" + 0.010*"gaji"
+2018-01-17 23:27:15,434 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:15,434 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:15,434 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"off" + 0.033*"kick" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:15,434 : INFO : topic diff=0.000650, rho=0.169031
+2018-01-17 23:27:15,551 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:15,552 : INFO : PROGRESS: pass 34, at document #148/148
+2018-01-17 23:27:15,617 : INFO : topic #3 (0.100): 0.032*"review" + 0.021*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:15,617 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"livebolanet" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:15,617 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"juventus" + 0.012*"roma"
+2018-01-17 23:27:15,617 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:15,617 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:15,617 : INFO : topic diff=0.000564, rho=0.166667
+2018-01-17 23:27:15,726 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:15,727 : INFO : PROGRESS: pass 35, at document #148/148
+2018-01-17 23:27:15,791 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:15,792 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"juventus" + 0.012*"roma"
+2018-01-17 23:27:15,792 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:15,792 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"prediksi" + 0.009*"a" + 0.009*"serie"
+2018-01-17 23:27:15,793 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"kick" + 0.033*"off" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:15,793 : INFO : topic diff=0.000487, rho=0.164399
+2018-01-17 23:27:15,920 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:15,920 : INFO : PROGRESS: pass 36, at document #148/148
+2018-01-17 23:27:15,985 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:15,986 : INFO : topic #1 (0.100): 0.061*"possessions" + 0.061*"tackles" + 0.061*"shots" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:15,986 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:15,986 : INFO : topic #3 (0.100): 0.032*"review" + 0.022*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:15,986 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"a" + 0.009*"serie" + 0.009*"prediksi"
+2018-01-17 23:27:15,986 : INFO : topic diff=0.000421, rho=0.162221
+2018-01-17 23:27:16,091 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:16,091 : INFO : PROGRESS: pass 37, at document #148/148
+2018-01-17 23:27:16,191 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:16,192 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"juventus" + 0.012*"roma"
+2018-01-17 23:27:16,192 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:16,192 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"a" + 0.009*"serie" + 0.009*"chelsea"
+2018-01-17 23:27:16,192 : INFO : topic #1 (0.100): 0.061*"possessions" + 0.061*"tackles" + 0.061*"shots" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:16,192 : INFO : topic diff=0.000362, rho=0.160128
+2018-01-17 23:27:16,304 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:16,304 : INFO : PROGRESS: pass 38, at document #148/148
+2018-01-17 23:27:16,385 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:16,386 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"juventus" + 0.012*"roma"
+2018-01-17 23:27:16,386 : INFO : topic #3 (0.100): 0.032*"review" + 0.022*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:16,386 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.019*"livebolanet" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:16,386 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:16,386 : INFO : topic diff=0.000312, rho=0.158114
+2018-01-17 23:27:16,491 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:16,491 : INFO : PROGRESS: pass 39, at document #148/148
+2018-01-17 23:27:16,556 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"a" + 0.009*"serie" + 0.009*"chelsea"
+2018-01-17 23:27:16,556 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:16,557 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.019*"livebolanet" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:16,557 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:16,557 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:16,557 : INFO : topic diff=0.000268, rho=0.156174
+2018-01-17 23:27:16,671 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:16,672 : INFO : PROGRESS: pass 40, at document #148/148
+2018-01-17 23:27:16,737 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:16,737 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"a" + 0.009*"serie" + 0.009*"chelsea"
+2018-01-17 23:27:16,738 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:16,738 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"kick" + 0.033*"off" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:16,738 : INFO : topic #1 (0.100): 0.061*"possessions" + 0.061*"tackles" + 0.061*"shots" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:16,738 : INFO : topic diff=0.000230, rho=0.154303
+2018-01-17 23:27:16,853 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:16,853 : INFO : PROGRESS: pass 41, at document #148/148
+2018-01-17 23:27:16,921 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:16,921 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"mu" + 0.009*"juventus" + 0.009*"ajar" + 0.009*"lemar"
+2018-01-17 23:27:16,921 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:16,921 : INFO : topic #3 (0.100): 0.032*"review" + 0.022*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:16,921 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.019*"livebolanet" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:16,921 : INFO : topic diff=0.000197, rho=0.152499
+2018-01-17 23:27:17,031 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:17,032 : INFO : PROGRESS: pass 42, at document #148/148
+2018-01-17 23:27:17,100 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:17,100 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"mu" + 0.009*"juventus" + 0.009*"ajar" + 0.009*"lemar"
+2018-01-17 23:27:17,100 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:17,100 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"off" + 0.033*"kick" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:17,100 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.019*"livebolanet" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:17,100 : INFO : topic diff=0.000169, rho=0.150756
+2018-01-17 23:27:17,222 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:17,222 : INFO : PROGRESS: pass 43, at document #148/148
+2018-01-17 23:27:17,299 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"off" + 0.033*"kick" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:17,299 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"mu" + 0.009*"ajar" + 0.009*"juventus" + 0.009*"lemar"
+2018-01-17 23:27:17,299 : INFO : topic #3 (0.100): 0.032*"review" + 0.022*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:17,299 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"a" + 0.009*"serie" + 0.009*"chelsea"
+2018-01-17 23:27:17,300 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:17,300 : INFO : topic diff=0.000144, rho=0.149071
+2018-01-17 23:27:17,465 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:17,466 : INFO : PROGRESS: pass 44, at document #148/148
+2018-01-17 23:27:17,641 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"juventus" + 0.012*"roma"
+2018-01-17 23:27:17,642 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:17,642 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:17,643 : INFO : topic #3 (0.100): 0.032*"review" + 0.022*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:17,643 : INFO : topic #2 (0.100): 0.031*"mil" + 0.030*"xi" + 0.028*"livebolanet" + 0.022*"atalanta" + 0.017*"cristante" + 0.013*"inter" + 0.009*"vs" + 0.009*"a" + 0.009*"serie" + 0.009*"chelsea"
+2018-01-17 23:27:17,643 : INFO : topic diff=0.000123, rho=0.147442
+2018-01-17 23:27:17,967 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:17,969 : INFO : PROGRESS: pass 45, at document #148/148
+2018-01-17 23:27:18,062 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:18,063 : INFO : topic #1 (0.100): 0.061*"tackles" + 0.061*"shots" + 0.061*"possessions" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:18,063 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:18,063 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.019*"livebolanet" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:18,063 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar" + 0.009*"bek"
+2018-01-17 23:27:18,063 : INFO : topic diff=0.000106, rho=0.145865
+2018-01-17 23:27:18,240 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:18,240 : INFO : PROGRESS: pass 46, at document #148/148
+2018-01-17 23:27:18,309 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar" + 0.009*"bek"
+2018-01-17 23:27:18,309 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.019*"livebolanet" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:18,310 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"juventus" + 0.012*"roma"
+2018-01-17 23:27:18,310 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:18,310 : INFO : topic #1 (0.100): 0.061*"tackles" + 0.061*"shots" + 0.061*"possessions" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:18,310 : INFO : topic diff=0.000090, rho=0.144338
+2018-01-17 23:27:18,453 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:18,453 : INFO : PROGRESS: pass 47, at document #148/148
+2018-01-17 23:27:18,520 : INFO : topic #3 (0.100): 0.032*"review" + 0.022*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:18,521 : INFO : topic #4 (0.100): 0.059*"livebolanet" + 0.045*"babak" + 0.036*"priiittt" + 0.033*"kick" + 0.033*"off" + 0.025*"madrid" + 0.024*"barcelona" + 0.024*"segarnyasolero" + 0.022*"real" + 0.021*"wasit"
+2018-01-17 23:27:18,521 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:18,521 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:18,521 : INFO : topic #1 (0.100): 0.061*"tackles" + 0.061*"shots" + 0.061*"possessions" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:18,522 : INFO : topic diff=0.000078, rho=0.142857
+2018-01-17 23:27:18,632 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:18,633 : INFO : PROGRESS: pass 48, at document #148/148
+2018-01-17 23:27:18,693 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:18,694 : INFO : topic #5 (0.100): 0.048*"barcelona" + 0.045*"madrid" + 0.042*"real" + 0.042*"segarnyasolero" + 0.038*"livebolanet" + 0.026*"manis" + 0.022*"tembak" + 0.020*"ronaldo" + 0.017*"navas" + 0.015*"umpan"
+2018-01-17 23:27:18,694 : INFO : topic #3 (0.100): 0.032*"review" + 0.022*"poin" + 0.012*"city" + 0.012*"mu" + 0.012*"chelsea" + 0.012*"imbang" + 0.012*"rumput" + 0.012*"inggris" + 0.012*"tinggal" + 0.012*"indonesia"
+2018-01-17 23:27:18,694 : INFO : topic #0 (0.100): 0.038*"liga" + 0.036*"madrid" + 0.036*"la" + 0.035*"livebolanet" + 0.032*"laga" + 0.032*"akhir" + 0.029*"subs" + 0.024*"segarnyasolero" + 0.021*"barcelona" + 0.019*"gol"
+2018-01-17 23:27:18,694 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.019*"livebolanet" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:18,694 : INFO : topic diff=0.000066, rho=0.141421
+2018-01-17 23:27:18,869 : INFO : -6.320 per-word bound, 79.9 perplexity estimate based on a held-out corpus of 148 documents with 1631 words
+2018-01-17 23:27:18,869 : INFO : PROGRESS: pass 49, at document #148/148
+2018-01-17 23:27:18,945 : INFO : topic #9 (0.100): 0.019*"main" + 0.019*"real" + 0.019*"madrid" + 0.019*"barcelona" + 0.019*"segarnyasolero" + 0.019*"livebolanet" + 0.010*"mu" + 0.010*"arsenal" + 0.010*"gaji" + 0.010*"imbang"
+2018-01-17 23:27:18,945 : INFO : topic #1 (0.100): 0.061*"tackles" + 0.061*"shots" + 0.061*"possessions" + 0.057*"livebolanet" + 0.036*"ht" + 0.031*"ft" + 0.026*"juventus" + 0.026*"roma" + 0.016*"review" + 0.011*"atalanta"
+2018-01-17 23:27:18,945 : INFO : topic #6 (0.100): 0.018*"liverpool" + 0.018*"lawan" + 0.018*"guardiola" + 0.018*"kartu" + 0.018*"klopp" + 0.012*"leicester" + 0.009*"mu" + 0.009*"ajar" + 0.009*"lemar" + 0.009*"bek"
+2018-01-17 23:27:18,945 : INFO : topic #8 (0.100): 0.063*"man" + 0.047*"city" + 0.045*"livebolanet" + 0.044*"leicester" + 0.042*"united" + 0.037*"bournemouth" + 0.024*"gawang" + 0.020*"umpan" + 0.018*"vs" + 0.016*"tembak"
+2018-01-17 23:27:18,945 : INFO : topic #7 (0.100): 0.030*"wib" + 0.030*"streaming" + 0.029*"vs" + 0.026*"livebolanet" + 0.024*"minggu" + 0.023*"mil" + 0.018*"preview" + 0.017*"atalanta" + 0.012*"juventus" + 0.012*"roma"
+2018-01-17 23:27:18,946 : INFO : topic diff=0.000057, rho=0.140028
+2018-01-17 23:27:18,956 : INFO : saving LdaState object under topic.model.state, separately None
+2018-01-17 23:27:18,956 : INFO : saved topic.model.state
+2018-01-17 23:27:18,958 : INFO : saving LdaModel object under topic.model, separately ['expElogbeta', 'sstats']
+2018-01-17 23:27:18,958 : INFO : not storing attribute id2word
+2018-01-17 23:27:18,958 : INFO : storing np array 'expElogbeta' to topic.model.expElogbeta.npy
+2018-01-17 23:27:18,959 : INFO : not storing attribute state
+2018-01-17 23:27:18,959 : INFO : not storing attribute dispatcher
+2018-01-17 23:27:18,960 : INFO : saved topic.model
+2018-01-17 23:27:18,960 : INFO : loading LdaModel object from topic.model
+2018-01-17 23:27:18,961 : INFO : loading expElogbeta from topic.model.expElogbeta.npy with mmap=None
+2018-01-17 23:27:18,962 : INFO : setting ignored attribute id2word to None
+2018-01-17 23:27:18,962 : INFO : setting ignored attribute state to None
+2018-01-17 23:27:18,963 : INFO : setting ignored attribute dispatcher to None
+2018-01-17 23:27:18,963 : INFO : loaded topic.model
+2018-01-17 23:27:18,963 : INFO : loading LdaState object from topic.model.state
+2018-01-17 23:27:18,964 : INFO : loaded topic.model.state
+2018-01-17 23:27:18,965 : INFO : loading Dictionary object from dictionary.dict
+2018-01-17 23:27:18,967 : INFO : loaded dictionary.dict
+2018-01-17 23:27:18,968 : INFO : loaded corpus index from corpus.mm.index
+2018-01-17 23:27:18,968 : INFO : initializing corpus reader from corpus.mm
+2018-01-17 23:27:18,969 : INFO : accepted corpus with 148 documents, 636 features, 1566 non-zero entries
+2018-01-17 23:27:18,969 : INFO : loading LdaModel object from topic.model
+2018-01-17 23:27:18,969 : INFO : loading expElogbeta from topic.model.expElogbeta.npy with mmap=None
+2018-01-17 23:27:18,970 : INFO : setting ignored attribute id2word to None
+2018-01-17 23:27:18,970 : INFO : setting ignored attribute state to None
+2018-01-17 23:27:18,970 : INFO : setting ignored attribute dispatcher to None
+2018-01-17 23:27:18,970 : INFO : loaded topic.model
+2018-01-17 23:27:18,970 : INFO : loading LdaState object from topic.model.state
+2018-01-17 23:27:18,970 : INFO : loaded topic.model.state
